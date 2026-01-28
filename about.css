@@ -1,0 +1,162 @@
+.about-hero {
+  height: 320px;
+  background: url("../images/about-bg.jpg") center/cover no-repeat;
+  position: relative;
+}
+
+.about-hero .overlay {
+  width: 100%;
+  height: 300px;
+  background: url("https://th.bing.com/th/id/OIP.reHVsFaRL_blfVcdRo0EDwHaHa?w=158&h=180&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.about-hero h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.about-hero p {
+  font-size: 16px;
+}
+
+
+.history {
+  padding: 80px 20%;
+  text-align: center;
+}
+
+.history h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.history p {
+  color: #666;
+  line-height: 1.7;
+}
+
+.author {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.role {
+  color: #d4a764;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #ffffff;
+}
+
+
+.about-images-section {
+  display: flex;
+  gap: 30px;
+  padding: 80px 8%;
+}
+
+
+.image-card {
+  position: relative;
+  width: 50%;
+  overflow: hidden;
+}
+
+.image-card img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  display: block;
+}
+
+
+.left-card .image-text {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-shadow: 0 4px 15px rgba(0,0,0,0.6);
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 85vh;
+  background: url("images/hero-food.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+}
+
+
+.hero-content {
+  position: relative;
+  text-align: center;
+  max-width: 900px;
+  padding: 20px;
+  color: #fff;
+}
+
+
+.offer {
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  color: #d1a054;
+  display: block;
+  margin-bottom: 15px;
+}
+
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+
+.hero-content p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #e0e0e0;
+  margin-bottom: 35px;
+}
+
+
+.hero-btn {
+  display: inline-block;
+  background: #d1a054;
+  color: #fff;
+  padding: 14px 34px;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 2px;
+  transition: 0.3s ease;
+}
+
+.hero-btn:hover {
+  background: #b8893c;
+}
